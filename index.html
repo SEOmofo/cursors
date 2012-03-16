@@ -77,17 +77,37 @@
 <body>
 <a href="https://github.com/SEOmofo/cursors"><img alt="Fork me on GitHub" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" style="position: absolute; top: 0; right: 0; border: 0;" /></a>
 <div id="container">
+<!--
     <div class="download">
         <a href="https://github.com/SEOmofo/cursors/zipball/master"><img border="0" src="https://github.com/images/modules/download/zip.png" width="90" /></a>
         <a href="https://github.com/SEOmofo/cursors/tarball/master"><img border="0" src="https://github.com/images/modules/download/tar.png" width="90" /></a>
     </div>
+-->
     <h1><a href="https://github.com/SEOmofo/cursors">Cursors</a> <span class="small">by <a href="https://github.com/SEOmofo">SEOmofo</a></span></h1>
     <div class="description">
         Custom cursors and CSS for SEOs and web developers.
     </div>
-    <h2>Nofollow Link Test</h2>
+    <p>These cursor icons and CSS can be used with browser extensions like <a href="http://userstyles.org/">Stylish</a> to customize your web experience. The examples I've provided are particularly useful for SEOs who need a simple way to check whether or not a given link is likely to be counted in Google's PageRank algorithm.</p>
+    <hr />
+
+    <h2>Nofollow</h2>
+    <p>Add <a href="nofollow.css">nofollow.css</a> to your custom stylesheet to identify links that have the <code>rel="nofollow"</code> attribute.
+    <h3>Test</h3>
     <p>Here is a <a href="http://www.google.com/" rel="nofollow">nofollow link</a>.</p>
     <p>Here is a <a href="http://www.seomofo.com/">followed link</a>.</p>
+
+    <h2>Iframe</h2>
+    <p>Add <a href="iframe.css">iframe.css</a> to your custom stylesheet to identify <code>iframe</code> elements. This example creates a red "frame" around an iframe when you hover your mouse pointer over it. (I couldn't get the cursor to work for this.)
+    <h3>Test</h3>
+    <iframe width="400" height="300" src="iframe.html"></iframe>
+
+    <h2>JavaScript</h2>
+    <p>Add <a href="javascript.css">javascript.css</a> to your custom stylesheet to identify links that have an <code>href</code> attribute value that starts with <code>javascript:</code>...and...links that have an <code>onclick</code> attribute.
+    <h3>Test</h3>
+    <p>Here is a <a href="javascript:void(0)">link</a> with an <code>href</code> attribute set to <code>javascript:void(0)</code>.</p>
+    <p>Here is a <a href="#" onclick="return false">link</a> with an <code>onclick</code> attribute set to <code>return false</code>.</p>
+
+<!--
     <h2>Download</h2>
     <p>You can download this project in either <a href="https://github.com/SEOmofo/cursors/zipball/master">zip</a> or <a href="https://github.com/SEOmofo/cursors/tarball/master">tar formats.</a></p><a href="https://github.com/SEOmofo/cursors/tarball/master"></a>
     <p>You can also clone the project with <a href="http://git-scm.com">Git</a> by running:</p>
@@ -97,6 +117,7 @@ $ git clone git://github.com/SEOmofo/cursors
     <div class="footer">
         get the source code on GitHub : <a href="https://github.com/SEOmofo/cursors">SEOmofo/cursors</a>
     </div>
+-->
 </div>
 </body>
 </html>
