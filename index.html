@@ -42,7 +42,6 @@
             color: #444;
         }
         h3 {
-            text-align: center;
             color: #444;
         }
         a {
@@ -54,9 +53,6 @@
             margin-top: 30px;
             font-style: italic;
         }
-        .download {
-            float: right;
-        }
         pre {
             background: #000;
             color: #fff;
@@ -65,12 +61,28 @@
         hr {
             border: 0;
             width: 80%;
+            margin-top: 60px;
+            margin-bottom: 60px;
             border-bottom: 1px solid #aaa;
         }
         .footer {
             text-align: center;
             padding-top: 30px;
             font-style: italic;
+        }
+        code {
+            font-family: Consolas, monospace;
+            color: #52595D;
+            -webkit-border-radius: 3px;
+            -moz-border-radius: 3px;
+            border-radius: 3px;
+            -moz-background-clip: padding;
+            -webkit-background-clip: padding-box;
+            background-clip: padding-box;
+            border: 1px solid #CCC;
+            background-color: #F9F9F9;
+            padding: 0px 3px;
+            display: inline-block;
         }
     </style>
 </head>
@@ -88,6 +100,7 @@
         Custom cursors and CSS for SEOs and web developers.
     </div>
     <p>These cursor icons and CSS can be used with browser extensions like <a href="http://userstyles.org/">Stylish</a> to customize your web experience. The examples I've provided are particularly useful for SEOs who need a simple way to check whether or not a given link is likely to be counted in Google's PageRank algorithm.</p>
+
     <hr />
 
     <h2>Nofollow</h2>
@@ -96,10 +109,14 @@
     <p>Here is a <a href="http://www.google.com/" rel="nofollow">nofollow link</a>.</p>
     <p>Here is a <a href="http://www.seomofo.com/">followed link</a>.</p>
 
+    <hr />
+
     <h2>Iframe</h2>
     <p>Add <a href="iframe.css">iframe.css</a> to your custom stylesheet to identify <code>iframe</code> elements. This example creates a red "frame" around an iframe when you hover your mouse pointer over it. (I couldn't get the cursor to work for this.)
     <h3>Test</h3>
     <iframe width="400" height="300" src="iframe.html"></iframe>
+
+    <hr />
 
     <h2>JavaScript</h2>
     <p>Add <a href="javascript.css">javascript.css</a> to your custom stylesheet to identify links that have an <code>href</code> attribute value that starts with <code>javascript:</code>...and...links that have an <code>onclick</code> attribute.
