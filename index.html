@@ -111,22 +111,28 @@
     <p>Add <a href="nofollow.css">nofollow.css</a> to your custom stylesheet to identify links that have the <code>rel="nofollow"</code> attribute.
     <h3>Test</h3>
     <p>Here is a <a href="http://www.google.com/" rel="nofollow">link</a> with a <code>rel</code> attribute set to <code>nofollow</code>.</p>
-    <p>Here is a <a href="http://www.seomofo.com/">link</a> without a <code>rel</code> attribute--just a normal "followed" link.</p>
 
     <hr />
 
     <h2>Iframe</h2>
     <p>Add <a href="iframe.css">iframe.css</a> to your custom stylesheet to identify <code>iframe</code> elements. This example creates a red "frame" around an iframe when you hover your mouse pointer over it. (I couldn't get the cursor to work for this.)
     <h3>Test</h3>
-    <iframe width="640" height="240" frameborder="0" scrolling="no" src="iframe.html"></iframe>
+    <iframe width="640" height="160" frameborder="0" scrolling="no" src="iframe.html"></iframe>
 
     <hr />
 
     <h2>JavaScript</h2>
-    <p>Add <a href="javascript.css">javascript.css</a> to your custom stylesheet to identify links that have an <code>href</code> attribute value that starts with <code>javascript:</code>...and...links that have an <code>onclick</code> attribute.
+    <p>Add <a href="javascript.css">javascript.css</a> to your custom stylesheet to identify links that have an <code>href</code> attribute value that starts with <code>javascript:</code>, or links that have an <code>onclick</code> attribute but the <code>href</code> attribute is either empty (<code>href=""</code>) or a hash character (<code>href="#"</code>).
     <h3>Test</h3>
     <p>Here is a <a href="javascript:void(0)">link</a> with an <code>href</code> attribute set to <code>javascript:void(0)</code>.</p>
     <p>Here is a <a href="#" onclick="return false">link</a> with an <code>onclick</code> attribute set to <code>return false</code>.</p>
+
+    <hr />
+
+    <h2>External</h2>
+    <p>Add <a href="nofollow.css">external.css</a> to your custom stylesheet to identify links that have the <code>rel="external"</code> attribute.
+    <h3>Test</h3>
+    <p>Here is a <a href="http://www.google.com/" rel="external">link</a> with a <code>rel</code> attribute set to <code>external</code>.</p>
 
 <!--
     <h2>Download</h2>

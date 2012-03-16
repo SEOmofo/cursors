@@ -1,3 +1,20 @@
+/******************************************************************************\
+                                box-shadow Syntax                               
+ ============================================================================== 
+
+box-shadow: h-shadow v-shadow blur spread color inset;
+
+h-shadow    Required    Horizontal position of the shadow. Negative values are ok.    
+v-shadow    Required    Vertical position of the shadow. Negative values are ok.    
+blur        Optional    Blur distance    
+spread      Optional    Size of the shadow    
+color       Optional    Color of the shadow   
+inset       Optional    Changes the shadow from an outer shadow (outset) to an inner shadow.    
+
+Multiple shadows can be applied to the same box element--separate them with commas.
+
+\******************************************************************************/
+
 iframe:hover {
     box-shadow:
         0px 0px 0px 1px rgba(255,255,255,1.0),
